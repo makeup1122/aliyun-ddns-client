@@ -22,7 +22,7 @@ from helper import DDNSHelper
 from utils import DDNSUtils
 from config import DDNSConfig
 
-CONF_FILE = "/etc/ddns.conf"
+CONF_FILE = "/volume1/homes/admin/aliyun-ddns-client/ddns.conf"
 
 if __name__ == "__main__":
     config = DDNSConfig(CONF_FILE)

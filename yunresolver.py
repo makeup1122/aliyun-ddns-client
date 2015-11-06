@@ -166,6 +166,7 @@ class YunResolver(object):
 
         domainRecordList = []
         try:
+	    print jsonResult;
             records = jsonResult['DomainRecords']['Record']
             for rec in records:
                 #dr = DomainRecord(rec)
